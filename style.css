@@ -35,7 +35,7 @@ h1, h2, h3, .navbar-brand {
 .navbar-nav .nav-link {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #d77a47 !important; /* Ändra färg här */
+    color: #d77a47 !important;
     margin-right: 20px;
     transition: color 0.3s ease;
 }
@@ -58,7 +58,7 @@ h1, h2, h3, .navbar-brand {
 
 /* === DAGENS LUNCH (Centrerad Sektion) === */
 #dagens-lunch {
-    background: #d77a47; /* Bakgrundsfärg - Ändra här */
+    background: #d77a47; /* Orange bakgrund */
     color: #fff;
     padding: 30px;
     text-align: center;
@@ -72,19 +72,13 @@ h1, h2, h3, .navbar-brand {
     font-size: 2rem;
     margin-bottom: 15px;
     font-weight: 700;
-    color: #f8f3f1; /* Ljusa upp rubriken - Ändra här */
-}
-
-#dagens-lunch ul {
-    list-style-type: none;
-    padding: 0;
-    font-size: 1.2rem;
+    color: #fff3e6; /* Ljusa upp rubriken */
 }
 
 /* === OM OSS Sektion (Uppdaterad Look) === */
 #about {
-    background: #d77a47; /* Ändra här för att matcha orange */
-    color: #fff; /* Ändra textfärgen om du vill */
+    background: #d77a47; /* Orange bakgrund */
+    color: #fff;
     padding: 60px 20px;
     max-width: 1100px;
     margin: 60px auto 40px auto;
@@ -96,11 +90,30 @@ h1, h2, h3, .navbar-brand {
     font-size: 2.5rem;
     text-align: center;
     font-weight: 700;
-    color: #f8f3f1; /* Ändra rubrikens färg */
-    border-bottom: 3px solid #fbe8d3; /* Ändra linjens färg */
+    color: #fff3e6; /* Ljusa upp rubriken */
+    border-bottom: 3px solid #ffdab3; /* Ljusa upp linjen */
     display: inline-block;
     padding-bottom: 10px;
     margin-bottom: 30px;
+}
+
+/* === Ljusa upp rubriker i orangea boxar === */
+#about h3, #dagens-lunch h3 {
+    color: #ffead1; /* Ljusare orange ton */
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* === BILD PÅ ÄGARNA – Mindre, Rundade Kanter & Centrerad === */
+.about-img {
+    width: 60%; /* Minskar storleken */
+    max-width: 320px; /* Justerbar maxstorlek */
+    border-radius: 15px; /* Rundade kanter */
+    display: block;
+    margin: 20px auto; /* Centrerar bilden */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Skugga */
 }
 
 /* === Instagram-ikon (Fixad positionering) === */
@@ -108,12 +121,12 @@ h1, h2, h3, .navbar-brand {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px; /* Mellanrum mellan ikonen och texten */
+    gap: 10px;
     margin-top: 15px;
 }
 
 .social-icon {
-    width: 30px; /* Ändra storlek på Instagram-ikonen */
+    width: 30px;
     height: 30px;
     display: inline-block;
 }
@@ -136,7 +149,7 @@ h1, h2, h3, .navbar-brand {
 }
 
 .opening-hours h3 {
-    color: #d77a47; /* Ändra rubrikfärg för öppettider */
+    color: #d77a47;
 }
 
 /* === GOOGLE MAPS STYLING === */
@@ -210,7 +223,9 @@ h1, h2, h3, .navbar-brand {
     }
 
     .about-img {
-        margin-bottom: 20px;
+        width: 70%;
+        max-width: 280px;
+        border-radius: 15px;
     }
 
     #dagens-lunch {
@@ -226,26 +241,7 @@ h1, h2, h3, .navbar-brand {
         flex-direction: column;
     }
 
-    /* === Bild på ägarna - Justeringar === */
-.about-img {
-    width: 70%; /* Minskar storleken på bilden */
-    max-width: 350px; /* Begränsar maxbredden */
-    border-radius: 20px; /* Rundade hörn */
-    display: block;
-    margin: 0 auto; /* Centrerar bilden */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Lägger till en mjuk skugga */
-}
-
     .social-icon {
         margin-bottom: 5px;
     }
-}
-
-/* === Ljusa upp rubriker i Om oss-sektionen === */
-#about h3 {
-    color: #fbe8d3; /* Ljusare orange ton */
-    font-weight: 700; /* Gör rubriken lite fetare */
-    font-size: 1.8rem; /* Anpassa storleken */
-    text-transform: uppercase; /* Gör rubriken mer distinkt */
-    letter-spacing: 1px; /* Ger lite mer mellanrum mellan bokstäver */
 }
