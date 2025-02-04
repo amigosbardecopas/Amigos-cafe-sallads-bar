@@ -11,11 +11,11 @@ body {
     line-height: 1.6;
 }
 
-/* === RÖDA RUBRIKER MED MER STIL === */
+/* === RUBRIKER MED MER STIL === */
 h1, h2, h3, .navbar-brand {
     font-family: 'Playfair Display', serif;
     color: #b85d30; /* Standardfärg på alla rubriker */
-    text-transform: uppercase; /* Gör det mer modernt */
+    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
@@ -29,7 +29,7 @@ h1, h2, h3, .navbar-brand {
 .navbar-brand {
     font-size: 2rem;
     font-weight: 700;
-    color: #d77a47 !important; /* Ändra färg här */
+    color: #d77a47 !important;
 }
 
 .navbar-nav .nav-link {
@@ -63,7 +63,7 @@ h1, h2, h3, .navbar-brand {
     padding: 30px;
     text-align: center;
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 450px; /* Minskar storleken */
     margin: 50px auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -72,34 +72,34 @@ h1, h2, h3, .navbar-brand {
     font-size: 2rem;
     margin-bottom: 15px;
     font-weight: 700;
-    color: #fff3e6; /* Ljusa upp rubriken */
+    color: #ffeee0; /* Ännu ljusare rubrik */
 }
 
-/* === OM OSS Sektion (Uppdaterad Look) === */
+/* === OM OSS Sektion – Mindre Box === */
 #about {
     background: #d77a47; /* Orange bakgrund */
     color: #fff;
-    padding: 60px 20px;
-    max-width: 1100px;
-    margin: 60px auto 40px auto;
+    padding: 40px 20px; /* Minskat padding */
+    max-width: 900px; /* Mindre bredd */
+    margin: 50px auto 40px auto;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 #about h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
     font-weight: 700;
-    color: #fff3e6; /* Ljusa upp rubriken */
+    color: #ffeee0; /* Ännu ljusare rubrik */
     border-bottom: 3px solid #ffdab3; /* Ljusa upp linjen */
     display: inline-block;
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
 
-/* === Ljusa upp rubriker i orangea boxar === */
+/* === Ljusa upp rubriker i orangea boxar ännu mer === */
 #about h3, #dagens-lunch h3 {
-    color: #ffead1; /* Ljusare orange ton */
+    color: #fff7eb; /* Ännu ljusare orange ton */
     font-weight: 700;
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -108,9 +108,9 @@ h1, h2, h3, .navbar-brand {
 
 /* === BILD PÅ ÄGARNA – Mindre, Rundade Kanter & Centrerad === */
 .about-img {
-    width: 60%; /* Minskar storleken */
-    max-width: 320px; /* Justerbar maxstorlek */
-    border-radius: 15px; /* Rundade kanter */
+    width: 55%; /* Minskar storleken */
+    max-width: 280px; /* Justerbar maxstorlek */
+    border-radius: 20px; /* Rundade kanter */
     display: block;
     margin: 20px auto; /* Centrerar bilden */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Skugga */
@@ -223,8 +223,8 @@ h1, h2, h3, .navbar-brand {
     }
 
     .about-img {
-        width: 70%;
-        max-width: 280px;
+        width: 65%;
+        max-width: 250px;
         border-radius: 15px;
     }
 
