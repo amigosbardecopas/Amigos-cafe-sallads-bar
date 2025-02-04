@@ -108,8 +108,8 @@ h1, h2, h3, .navbar-brand {
 
 /* === BILD PÅ ÄGARNA – Mindre, Rundade Kanter & Centrerad === */
 .about-img {
-    width: 65%; /* Öka storleken (t.ex. 65% istället för 55%) */
-    max-width: 320px; /* Öka maxbredden (t.ex. 320px istället för 280px) */
+    width: 75%; /* Öka storleken (t.ex. 65% istället för 55%) */
+    max-width: 400px; /* Öka maxbredden (t.ex. 320px istället för 280px) */
     border-radius: 20px; /* Rundade hörn */
     display: block;
     margin: 20px auto; /* Centrerad */
