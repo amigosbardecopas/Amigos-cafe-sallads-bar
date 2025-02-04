@@ -226,7 +226,26 @@ h1, h2, h3, .navbar-brand {
         flex-direction: column;
     }
 
+    /* === Bild på ägarna - Justeringar === */
+.about-img {
+    width: 70%; /* Minskar storleken på bilden */
+    max-width: 350px; /* Begränsar maxbredden */
+    border-radius: 20px; /* Rundade hörn */
+    display: block;
+    margin: 0 auto; /* Centrerar bilden */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Lägger till en mjuk skugga */
+}
+
     .social-icon {
         margin-bottom: 5px;
     }
+}
+
+/* === Ljusa upp rubriker i Om oss-sektionen === */
+#about h3 {
+    color: #fbe8d3; /* Ljusare orange ton */
+    font-weight: 700; /* Gör rubriken lite fetare */
+    font-size: 1.8rem; /* Anpassa storleken */
+    text-transform: uppercase; /* Gör rubriken mer distinkt */
+    letter-spacing: 1px; /* Ger lite mer mellanrum mellan bokstäver */
 }
