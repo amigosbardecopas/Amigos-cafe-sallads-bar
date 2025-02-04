@@ -72,7 +72,7 @@ h1, h2, h3, .navbar-brand {
     font-size: 2rem;
     margin-bottom: 15px;
     font-weight: 700;
-    color: #fbe8d3; /* Ljusa upp rubriken - Ändra här */
+    color: #f8f3f1; /* Ljusa upp rubriken - Ändra här */
 }
 
 #dagens-lunch ul {
@@ -96,7 +96,7 @@ h1, h2, h3, .navbar-brand {
     font-size: 2.5rem;
     text-align: center;
     font-weight: 700;
-    color: #fbe8d3; /* Ändra rubrikens färg */
+    color: #f8f3f1; /* Ändra rubrikens färg */
     border-bottom: 3px solid #fbe8d3; /* Ändra linjens färg */
     display: inline-block;
     padding-bottom: 10px;
