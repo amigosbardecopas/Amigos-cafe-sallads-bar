@@ -14,7 +14,7 @@ body {
 /* === RÖDA RUBRIKER MED MER STIL === */
 h1, h2, h3, .navbar-brand {
     font-family: 'Playfair Display', serif;
-    color: #b85d30;
+    color: #b85d30; /* Standardfärg på alla rubriker */
     text-transform: uppercase; /* Gör det mer modernt */
     letter-spacing: 1px;
 }
@@ -29,13 +29,13 @@ h1, h2, h3, .navbar-brand {
 .navbar-brand {
     font-size: 2rem;
     font-weight: 700;
-    color: #d77a47 !important;
+    color: #d77a47 !important; /* Ändra färg här */
 }
 
 .navbar-nav .nav-link {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #d77a47 !important;
+    color: #d77a47 !important; /* Ändra färg här */
     margin-right: 20px;
     transition: color 0.3s ease;
 }
@@ -58,7 +58,7 @@ h1, h2, h3, .navbar-brand {
 
 /* === DAGENS LUNCH (Centrerad Sektion) === */
 #dagens-lunch {
-    background: #d77a47;
+    background: #d77a47; /* Bakgrundsfärg - Ändra här */
     color: #fff;
     padding: 30px;
     text-align: center;
@@ -72,6 +72,7 @@ h1, h2, h3, .navbar-brand {
     font-size: 2rem;
     margin-bottom: 15px;
     font-weight: 700;
+    color: #fbe8d3; /* Ljusa upp rubriken - Ändra här */
 }
 
 #dagens-lunch ul {
@@ -82,8 +83,8 @@ h1, h2, h3, .navbar-brand {
 
 /* === OM OSS Sektion (Uppdaterad Look) === */
 #about {
-    background: #fff;
-    color: #4a3f35;
+    background: #d77a47; /* Ändra här för att matcha orange */
+    color: #fff; /* Ändra textfärgen om du vill */
     padding: 60px 20px;
     max-width: 1100px;
     margin: 60px auto 40px auto;
@@ -95,8 +96,8 @@ h1, h2, h3, .navbar-brand {
     font-size: 2.5rem;
     text-align: center;
     font-weight: 700;
-    color: #d77a47;
-    border-bottom: 3px solid #d77a47;
+    color: #fbe8d3; /* Ändra rubrikens färg */
+    border-bottom: 3px solid #fbe8d3; /* Ändra linjens färg */
     display: inline-block;
     padding-bottom: 10px;
     margin-bottom: 30px;
@@ -112,8 +113,8 @@ h1, h2, h3, .navbar-brand {
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
+    width: 30px; /* Ändra storlek på Instagram-ikonen */
+    height: 30px;
     display: inline-block;
 }
 
@@ -135,7 +136,7 @@ h1, h2, h3, .navbar-brand {
 }
 
 .opening-hours h3 {
-    color: #d77a47;
+    color: #d77a47; /* Ändra rubrikfärg för öppettider */
 }
 
 /* === GOOGLE MAPS STYLING === */
