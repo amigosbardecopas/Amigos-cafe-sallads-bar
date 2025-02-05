@@ -106,16 +106,15 @@ h1, h2, h3, .navbar-brand {
     letter-spacing: 1px;
 }
 
-/* === BILD PÅ ÄGARNA – Mindre, Rundade Kanter & Centrerad === */
+/* === BILD PÅ ÄGARNA – Rundade Kanter & Centrerad === */
 .about-img {
-    width: 75%; /* Öka storleken (t.ex. 65% istället för 55%) */
-    max-width: 400px; /* Öka maxbredden (t.ex. 320px istället för 280px) */
-    border-radius: 20px; /* Rundade hörn */
+    width: 90%; /* Gör bilden större, kan justeras mellan 80%-100% */
+    max-width: 500px; /* Öka maxbredden så att bilden blir tydligare */
+    border-radius: 25px; /* Rundare hörn */
     display: block;
     margin: 20px auto; /* Centrerad */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Skugga */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Lite större skugga för lyft */
 }
-
 /* === Instagram-ikon (Fixad positionering) === */
 .social-container {
     display: flex;
