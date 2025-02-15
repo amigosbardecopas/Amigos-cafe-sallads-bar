@@ -244,3 +244,7 @@ h1, h2, h3, .navbar-brand {
         margin-bottom: 5px;
     }
 }
+.navbar-toggler span.ms-2 {
+  font-size: 0.9rem; /* Gör texten lite mindre */
+  color: #333;      /* Anpassa textfärgen */
+}
