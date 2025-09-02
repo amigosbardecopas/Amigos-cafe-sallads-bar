@@ -56,24 +56,6 @@ h1, h2, h3, .navbar-brand {
     border: 4px solid #d77a47;
 }
 
-/* === DAGENS LUNCH (Centrerad Sektion) === */
-#dagens-lunch {
-    background: #d77a47; /* Orange bakgrund */
-    color: #fff;
-    padding: 30px;
-    text-align: center;
-    border-radius: 10px;
-    max-width: 450px; /* Minskar storleken */
-    margin: 50px auto;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-#dagens-lunch h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    font-weight: 700;
-    color: #ffffff; /* Ännu ljusare rubrik */
-}
 
 /* === OM OSS Sektion – Mindre Box === */
 #about {
@@ -98,13 +80,6 @@ h1, h2, h3, .navbar-brand {
 }
 
 /* === Ljusa upp rubriker i orangea boxar ännu mer === */
-#about h3, #dagens-lunch h3 {
-    color: #fff7eb; /* Ännu ljusare orange ton */
-    font-weight: 700;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
 
 /* === BILD PÅ ÄGARNA – Rundade Kanter & Centrerad === */
 .about-img {
